@@ -1,0 +1,84 @@
+.main {
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.block{
+  display:flex ;
+  flex-direction: column;
+  box-sizing: border-box;
+  width:70%;
+  height:200px;
+ border: 2px solid rgb(48, 153, 195)
+}
+.main .mainTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainList {
+  margin-top: 40px;
+  width: 50vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+/* mainitem STYLING */
+
+.mainItem img {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.mainItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.mainItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainItem h1,
+.mainItem p {
+  margin-left: 20px;
+}
+.btn{
+  border-radius: 8px;
+	padding: 5px;
+	border-style: none;
+	background-color:rgb(48, 153, 195);
+	border: solid 2px black;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .mainList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .mainList {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,46 @@
+.homepage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 50%;
+}
+
+.homepage img {
+	background-size: cover;
+
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex: 70%;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+}
+.header {
+	margin: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 100px;
+	font-style: italic;
+}
+
+button {
+	border-radius: 8px;
+	padding: 5px;
+	border-style: none;
+	background-color:rgb(48, 153, 195);;
+	border: solid 2px black;
+	font-weight: bold;
+	margin-top: 70px;
+}
+button:hover {
+	color: blanchedalmond;
+	cursor: pointer;
+}
+.header p {
+	margin-top: 50px;
+	font-weight: 1.4rem;
+	color: black;
+	font-style: italic;
+}

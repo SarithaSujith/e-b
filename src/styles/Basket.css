@@ -1,0 +1,8 @@
+.block{
+  display:flex ;
+  flex-direction: column;
+  box-sizing: border-box;
+  width:70%;
+  height:200px;
+ border: 2px solid rgb(48, 153, 195)
+}

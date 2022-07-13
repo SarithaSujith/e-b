@@ -1,0 +1,10 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
